@@ -22,4 +22,4 @@ Feel free to explore and connect with me!
 
 This is my personal portfolio website built using React (Vite) and Tailwind CSS. It showcases my skills, projects, and contact information. The site is fully responsive and optimized for performance.
 
-🌐 Check it out here: Venkat Portfolio
+🌐 Check it out here: https://venkat20000612.github.io/Venkat_Portfolio/
