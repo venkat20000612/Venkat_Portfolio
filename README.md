@@ -18,3 +18,8 @@ If you are developing a production application, we recommend using TypeScript an
 This is my personal portfolio website built using React (Vite) and Tailwind CSS. It showcases my skills, projects, and contact information. The site is fully responsive and optimized for performance.
 
 Feel free to explore and connect with me!
+
+
+This is my personal portfolio website built using React (Vite) and Tailwind CSS. It showcases my skills, projects, and contact information. The site is fully responsive and optimized for performance.
+
+🌐 Check it out here: Venkat Portfolio
