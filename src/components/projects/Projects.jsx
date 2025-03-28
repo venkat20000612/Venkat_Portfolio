@@ -39,7 +39,7 @@ const Projects = () => {
                         <p className="text-gray-300 mb-4">The webpage is designed by the personal dashboard purpose
                         it has 100% responsiviness in this webpage.</p>
 
-                        <a href="https://chimerical-fairy-1e28b6.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-2 text-center justify-center">
+                        <a href="https://dainty-brioche-5ceec0.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-indigo-300 flex items-center gap-2 text-center justify-center">
                             View Project <ExternalLink size={20} />
                         </a>
                     </div>
