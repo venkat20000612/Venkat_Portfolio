@@ -47,7 +47,7 @@ const Home = () => {
 
                 {/* Main Content */}
                 <div className="relative z-10 text-white w-full max-w-4xl">
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-2 leading-tight">
+                    <h1 data-aos="zoom-in" className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-2 leading-tight">
                         Venkat
                     </h1>
                     <p className="text-xl sm:text-2xl md:text-3xl font-semibold mt-2">

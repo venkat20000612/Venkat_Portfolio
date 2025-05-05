@@ -18,7 +18,7 @@ const About = () => {
                 </p>
             </div>
             <div class="flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-8">
-                <div class="w-full sm:w-1/3 flex justify-center mb-8 sm:mb-0">
+                <div class="w-full sm:w-1/3 flex justify-center mb-8 sm:mb-0" data-aos="fade-right" data-aos-duration="3000">
                     <img src={Aboutimage} class="w-64 sm:w-72 md:w-80 h-auto object-cover rounded-md shadow-xl"
                         alt="Profile Image"/>
                 </div>
@@ -30,22 +30,22 @@ const About = () => {
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-800">
                         <div>
                             <ul>
-                                <li class="flex items-center mb-4">
+                                <li data-aos="fade-left" data-aos-duration="500" class="flex items-center mb-4">
                                     <i class="bi bi-chevron-right text-blue-600 mr-2"></i>
                                     <strong class="font-bold text-black">Birthday:&nbsp;</strong>
                                     <span class="font-semibold text-black"> 6 December 2000</span>
                                 </li>
-                                <li class="flex items-center mb-4">
+                                <li data-aos="fade-left" data-aos-duration="800" class="flex items-center mb-4">
                                     <i class="bi bi-linkedin text-blue-600 mr-2"></i>
                                     <a href="https://www.linkedin.com/in/venkata-rao-annam-47a577202/" target="_blank"
                                         class="font-semibold text-black hover:text-white">LinkedIn Profile</a>
                                 </li>
-                                <li class="flex items-center mb-4">
+                                <li data-aos="fade-left" data-aos-duration="1100" class="flex items-center mb-4">
                                     <i class="bi bi-github text-blue-600 mr-2"></i>
                                     <a href="https://github.com/venkat20000612" target="_blank"
                                         class="font-semibold text-black hover:text-white">GitHub Profile</a>
                                 </li>
-                                <li class="flex items-center mb-4">
+                                <li data-aos="fade-left" data-aos-duration="1400" class="flex items-center mb-4">
                                     <i class="bi bi-chevron-right text-blue-600 mr-2"></i>
                                     <strong class="font-bold text-black">Phone:&nbsp;</strong>
                                     <a href="tel:+916300131956"
@@ -53,7 +53,7 @@ const About = () => {
                                         +91 9133822302
                                     </a>
                                 </li>
-                                <li class="flex items-center mb-4">
+                                <li data-aos="fade-left" data-aos-duration="1700" class="flex items-center mb-4">
                                     <i class="bi bi-chevron-right text-blue-600 mr-2"></i>
                                     <strong class="font-bold text-black">Current City:&nbsp;</strong>
                                     <span class="font-semibold text-black"> Hyderabad, Telangana</span>
@@ -62,12 +62,12 @@ const About = () => {
                         </div>
                         <div>
                             <ul>
-                                <li class="flex items-center mb-4">
+                                <li data-aos="fade-left" data-aos-duration="2000" class="flex items-center mb-4">
                                     <i class="bi bi-chevron-right text-blue-600 mr-2"></i>
                                     <strong class="font-bold text-black">Graduate:&nbsp;</strong>
                                     <span class="font-semibold text-black"> B.Tech (ECE)</span>
                                 </li>
-                                <li class="flex items-center mb-4">
+                                <li data-aos="fade-left" data-aos-duration="2300" class="flex items-center mb-4">
                                     <i class="bi bi-chevron-right text-blue-600 mr-2"></i>
                                     <strong class="font-bold text-black">Email: &nbsp;</strong>
                                     <div class="flex flex-col">

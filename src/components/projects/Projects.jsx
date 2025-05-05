@@ -15,10 +15,10 @@ const Projects = () => {
 
 
                 {/* First Card with Hover Effect */}
-                <a className="block max-w-sm group relative overflow-hidden border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 text-center justify-center">
+                <a data-aos="flip-left" data-aos-duration="2300" className="block max-w-sm group relative overflow-hidden border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 text-center justify-center">
                     <img src={image_1} alt="Project 1" className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" />
 
-                    <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4">
+                    <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/80 to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-500 p-4">
                         <h3 className="text-white text-xl font-bold mb-2">Digit Internship</h3>
                         <p className="text-gray-300 mb-4">The webpage is designed for educational purposes and is fully responsive.</p>
 
@@ -31,10 +31,10 @@ const Projects = () => {
 
 
                 {/* Second Card with Hover Effect */}
-                <a className="block max-w-sm group relative overflow-hidden border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 text-center justify-center">
+                <a data-aos="flip-left" data-aos-duration="2300" className="block max-w-sm group relative overflow-hidden border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 text-center justify-center">
                     <img src={image_2} alt="Project 2" className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" />
 
-                    <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4">
+                    <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/80 to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-500 p-4">
                         <h3 className="text-white text-xl font-bold mb-2">Zoblix Dashboard</h3>
                         <p className="text-gray-300 mb-4">The webpage is designed by the personal dashboard purpose
                         it has 100% responsiviness in this webpage.</p>
@@ -48,10 +48,10 @@ const Projects = () => {
 
 
                {/* Third Card with Hover Effect */}
-               <a className="block max-w-sm group relative overflow-hidden border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 text-center justify-center">
+               <a data-aos="flip-left" data-aos-duration="2300" className="block max-w-sm group relative overflow-hidden border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 text-center justify-center">
                     <img src={image_3} alt="Project 3" className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110" />
 
-                    <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4">
+                    <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-black/80 to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-500 p-4">
                         <h3 className="text-white text-xl font-bold mb-2">Try Book Ai Website</h3>
                         <p className="text-gray-300 mb-4">The webpage is designed for the Testing of my Skill in frontend purpose
                         it has 100% responsiviness in this web page.</p>

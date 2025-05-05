@@ -17,10 +17,10 @@ const Navbar = () => {
     return (
         <nav className="text-white shadow-lg fixed top-0 w-full z-50 bg-gray-900 dark:text-gray-100 dark:bg-slate-900 duration-100">
             <div className="container mx-auto flex justify-between items-center">
-                <a href="#" className="text-3xl font-bold"><img src={logo} alt="Logo" className='h-20 w-30 object-contain bg-transparent' /></a>
+                <a data-aos="fade-right" href="#" className="text-3xl font-bold"><img src={logo} alt="Logo" className='h-20 w-30 object-contain bg-transparent' /></a>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex space-x-8 text-lg">
+                <ul data-aos="fade-down" className="hidden md:flex space-x-8 text-lg">
                     {['home', 'about', 'projects', 'education', 'contact'].map((item) => (
                         <li key={item}>
                             <a

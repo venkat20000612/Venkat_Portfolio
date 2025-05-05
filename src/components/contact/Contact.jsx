@@ -96,7 +96,7 @@ const Contact = () => {
 
                 {/* Resume Download Section */}
                 <section id="resume" className="py-12 sm:py-16 md:py-20">
-                    <div className="container mx-auto text-center">
+                    <div data-aos="fade-right" data-aos-duration="2300" className="container mx-auto text-center">
                         <h2 className="text-3xl sm:text-4xl font-semibold text-blue-600 mb-6">
                             <u>Resume</u>
                         </h2>
@@ -111,7 +111,7 @@ const Contact = () => {
                 </section>
 
                 {/* Contact Form */}
-                <form onSubmit={handleSubmit} className="max-w-md mx-auto w-full">
+                <form data-aos="fade-left" data-aos-duration="2300" onSubmit={handleSubmit} className="max-w-md mx-auto w-full">
                     {/* Name Field */}
                     <div className="relative z-0 w-full mb-5 group">
                         <input type="text" name="Name" id="name" value={name}

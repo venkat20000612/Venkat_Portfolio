@@ -9,12 +9,22 @@ import Projects from "./components/projects/Projects";
 import React, { useEffect, useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function App() {
 
-  // THis for the wats draggable icon
+
+   // ✅ AOS Initialization
+   useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  }, []);
+
+  // THis for the whatsapp draggable icon
   useEffect(() => {
     let isDragging = false;
     let offsetX, offsetY;
